@@ -15,18 +15,27 @@ const MyCrops = () => {
   const crops = [
     {
       id: "1",
-      type: "상추",
-      title: "상추도사",
+      species: "상추",
+      name: "상추도사",
+      harvesting: "1주전",
+      latest_watered_date: "2022.04.11",
+      scheduled_watered_date: null,
     },
     {
       id: "2",
-      type: "배추",
-      title: "배추도사",
+      species: "배추",
+      name: "배추도사",
+      harvesting: "1주전",
+      latest_watered_date: "2022.04.11",
+      scheduled_watered_date: null,
     },
     {
       id: "3",
-      type: "대파",
-      title: "대파도사",
+      species: "대파",
+      name: "대파도사",
+      harvesting: "1주전",
+      latest_watered_date: "2022.04.11",
+      scheduled_watered_date: null,
     },
   ];
   return (
